@@ -98,7 +98,7 @@ export const HeroSection = () => {
         >
           <div className="flex items-center gap-2 text-muted-foreground">
             <Clock className="w-5 h-5 text-primary" />
-            <span>{eventDetails.time}</span>
+            <span>{eventDetails.brandName}</span>
           </div>
           <div className="w-1.5 h-1.5 rounded-full bg-primary" />
           <div className="flex items-center gap-2 text-muted-foreground">
@@ -120,7 +120,7 @@ export const HeroSection = () => {
             {/* Shimmer effect */}
             <span className="absolute inset-0 bg-shimmer bg-[length:200%_100%] animate-shimmer opacity-30" />
             
-            <span className="relative z-10">Reserve Your Sanctuary</span>
+            <span className="relative z-10">Reserve Your Table</span>
             <span className="relative z-10 font-display text-xl">
               {eventDetails.currency}{eventDetails.price.toLocaleString()}
             </span>
